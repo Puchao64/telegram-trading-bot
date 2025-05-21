@@ -33,3 +33,25 @@ Telegram bot for live crypto prices, crypto news feed, and simulated trading.
 git clone https://github.com/Puchao64/telegram-trading-bot.git
 cd telegram-trading-bot
 npm install
+
+📄 Create .env file
+cp .env.example .env
+Открой .env и вставь свой токен:
+BOT_TOKEN=your_token_here
+
+▶️ Run
+node bot.js
+
+📁 Project Structure
+.
+├── assets/          # Screenshots
+├── bot.js           # Main bot code
+├── .env.example     # Example environment variables
+└── README.md        # Project documentation
+
+👤 Author
+Artur Puchinin
+Costa Adeje, Spain
+puchininarturl@gmail.com
+GitHub: https://github.com/Puchao64
+LinkedIn: https://www.linkedin.com/in/artur-puchinin
