@@ -3,28 +3,22 @@
 Telegram bot for live crypto prices, crypto news feed, and simulated trading.  
 👉 Try it in Telegram: [@SignalForgeBot](https://t.me/SignalForgeBot)
 
----
-
 ## ✨ Features
 
-- `/ping` — проверка отклика бота  
-- `/price` — текущие цены BTC и ETH (CoinGecko API)  
-- `/news` — последние крипто-новости с CoinDesk (RSS)  
-- `/buy BTC` или `/buy ETH` — симуляция покупки по текущей цене  
-
----
+- `/ping` — check bot availability  
+- `/price` — real-time BTC & ETH prices (via CoinGecko API)  
+- `/news` — latest crypto news (via CoinDesk RSS)  
+- `/buy BTC` or `/buy ETH` — simulate buy order at current price
 
 ## 🖼️ Preview
 
-| Команда    | Скриншот |
-|------------|----------|
-| `/price`   | ![price](./assets/price.png) |
-| `/news`    | ![news](./assets/news.png) |
-| `/buy BTC` | ![buy](./assets/buy%20BTC.png) |
+| Command   | Screenshot                        |
+|-----------|-----------------------------------|
+| `/price`  | ![price](./assets/price.png)      |
+| `/news`   | ![news](./assets/news.png)        |
+| `/buy BTC`| ![buy](./assets/buy%20BTC.png)    |
 
----
-
-## 🔧 Стек
+## 🔧 Stack
 
 - Node.js  
 - Telegram Bot API (`node-telegram-bot-api`)  
@@ -33,9 +27,7 @@ Telegram bot for live crypto prices, crypto news feed, and simulated trading.
 - Axios  
 - dotenv
 
----
-
-## 🚀 Установка
+## 🚀 Installation
 
 ```bash
 git clone https://github.com/Puchao64/telegram-trading-bot.git
